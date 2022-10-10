@@ -7,9 +7,10 @@
     <!-- Theme color change -->
     <meta name="theme-color" content="#130F23" />
     <!-- Page Title -->
-    <title>CongDanh - Software Engineer</title>
+    <title>Cikenote - Software Engineer</title>
     <!-- Meta Description -->
-    <meta name="description" content="Hey there! I'm Cong Danh, a software engineer. I build web apps or a great builder that is scalable, optimized, and highly accessible">
+    <meta name="description"
+        content="Hey there! I'm Cong Danh, a software engineer. I build web apps or a great builder that is scalable, optimized, and highly accessible">
     <!-- Favicon -->
     <link rel="shortcut icon" href="./assets/images/logocd.png" type="image/x-icon">
     <!-- External Css Link -->
@@ -19,8 +20,6 @@
     <!-- Typewritter Js -->
     <script src="https://unpkg.com/typewriter-effect@2.3.1/dist/core.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <!-- Bootstrap -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous"> -->
 </head>
 
 <body id="smooth-scroll">
@@ -34,14 +33,16 @@
 
         <nav>
             <div class="logo" id="logo">
-                <img src="./assets/images/logocd.png" alt="logo">
+                <a href="#" target="_blank" rel="noopener noreferrer"><img src="./assets/images/logocd.png"
+                        alt="logo"></a>
             </div>
 
             <ul class="nav-links">
                 <li class="hide-mobile"><a href="#about">About</a></li>
-                <li class="hide-mobile"><a href="#education">Education</a></li>
+                <li class="hide-mobile"><a href="#skills">Skills</a></li>
+                <li class="hide-mobile"><a href="#projects">Project</a></li>
                 <li class="hide-mobile"><a href="#contact">Contact</a></li>
-                <!-- <li><a href="#" class="resume resume--button" target="_blank">Resume</a></li> -->
+                <li><a href="#" class="resume resume--button" target="_blank">Resume</a></li>
             </ul>
         </nav>
     </header>
@@ -54,11 +55,9 @@
                     <p class="text-accent">Hello 👋, my name is</p>
                     <h2 class="introduction--name">Cong Danh</h2>
                     <h2 id="introduction--about">Creativity • Quality</h2>
-                    <!-- <a href="mailto:chucongdanh2703@gmail.com" data-micron="bounce" class="introduction--button">Get In
-                        Touch</a> -->
                 </div>
                 <div class="image__wrapper">
-                    <img src="./assets/images/danh.png" alt="3D image" id="header-image" >
+                    <img src="./assets/images/danh.png" alt="3D image" id="header-image">
                 </div>
             </div>
 
@@ -70,32 +69,33 @@
 
                 <div class="about__content" data-aos="fade-up">
                     <div class="details">
-                        <p>Hey there! I'm Cong Danh, a software developer with a passion for website and app development.</p>
-                        <p>I'm really passionate about using technology to design softwares that helps promote to 
+                        <p>Hey there! I'm Cong Danh, a software developer with a passion for website and app
+                            development.</p>
+                        <p>I'm really passionate about using technology to design softwares that helps promote to
                             businesses and societal welfare at large.
                         </p>
 
                         <p>
                             Tools i make use of include,
-                            <div class="technologies">
-                                <ul>
-                                    <li>HTML & CSS</li>
-                                    <li>SCSS</li>
-                                    <li>JavaScript</li>
-                                    <li>TypeScript</li>
-                                    <li>ReactJs</li>
-                                    <li>Figma</li>
-                                </ul>
-                                <ul>
-                                    <li>PHP</li>
-                                    <li>MySQL</li>
-                                    <li>Java</li>
-                                    <li>NodeJs</li>
-                                    <li>VueJS</li>
-                                    <li>Angular</li>
+                        <div class="technologies">
+                            <ul>
+                                <li>HTML & CSS</li>
+                                <li>SCSS</li>
+                                <li>JavaScript</li>
+                                <li><s>TypeScript</s></li>
+                                <li><s>ReactJs</s></li>
+                                <li><s>Figma</s></li>
+                            </ul>
+                            <ul>
+                                <li><s>PHP</s></li>
+                                <li>MySQL</li>
+                                <li>Java</li>
+                                <li><s>NodeJs</s></li>
+                                <li><s>VueJS</s></li>
+                                <li><s>Angular</s></li>
 
-                                </ul>
-                            </div>
+                            </ul>
+                        </div>
 
                         </p>
                     </div>
@@ -106,185 +106,163 @@
             </div>
 
             <!--==========================================
-                   EDUCATION
-===========================================-->
-            <section id="education" class="section education">
-                <div class="container">
+                            SKILLS
+            ===========================================-->
+            <section id="skills" class="section">
+                <!-- <div class="container"> -->
                     <!-- SECTION TITLE -->
                     <div class="section-title">
-                        <h4 class="section-title__edu"><i class="title-icon fa fa-graduation-cap"></i>EDUCATION</h4>
+                        <h2 class="section-title__skill">Skills</h2>
                     </div>
-
-                    <div id="timeline-education">
-
-                        <!-- FIRST TIMELINE -->
-                        <div class="timeline-block">
-                            <!-- DOT -->
-                            <div class="timeline-dot"><h6>C</h6></div>
-                            <!-- TIMELINE CONTENT -->
-                            <div class="card timeline-content">
-                                <div class="card-content">
-                                    <!-- TIMELINE TITLE -->
-                                    <h6 class="timeline-title">Preparatory Education</h6>
-                                    <!-- TIMELINE TITLE INFO -->
-                                    <div class="timeline-info">
-                                        <h6>
-                                            <small>Le Thanh Tong School</small>
-                                        </h6>
-                                        <h6>
-                                            <small>2015 - 2018</small>
-                                        </h6>
+                    <div id="skills-card" class="card">
+                        <div class="card-content">
+                            <div class="card-items">
+                                <div class="card-items__col">
+                                    <!-- FIRST SKILL SECTION -->
+                                    <div class="skills-title">
+                                        <h4 class="text-center">Professional</h4>
                                     </div>
-                                    <!-- TIMELINE PARAGRAPH -->
-                                    <p>
-                                        I completed my preparatory education from this prestigious institution.
-                                        I successful completed all the credits without any fallout and got A grade overall.
-                                    </p>
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title"><span>HTML5</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="90%">
+                                        <div class="skillbar-title"><span>CSS3</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title"><span>JavaScript</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">40%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="68%">
+                                        <div class="skillbar-title"><span>Java</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">30%</div>
+                                    </div>
+                                    <!-- FIFTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="68%">
+                                        <div class="skillbar-title"><span>MySQL</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-items__col">
+                                    <!-- SECOND SKILL SECTION -->
+                                    <div class="skills-title">
+                                        <h4 class="text-center">Personal</h4>
+                                    </div>
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title"><span>Communication</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title"><span>Teamwork</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title"><span>Creativity</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title"><span>Dedication</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">90%</div>
+                                    </div>
+                                    <!-- FIFTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title"><span>Calm Down</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">99%</div>
+                                    </div>
+                                </div>
+
+
+                                <div class="card-items__col">
+                                    <!-- THIRD SKILL SECTION -->
+                                    <div class="skills-title">
+                                        <h4 class="text-center">Software</h4>
+                                    </div>
+                                    <!-- FIRST SKILL BAR -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title"><span>Adobe Photoshop</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- SECOND SKILL BAR  -->
+                                    <div class="skillbar" data-percent="70%">
+                                        <div class="skillbar-title"><span>Adobe InDesign</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">70%</div>
+                                    </div>
+                                    <!-- THIRD SKILL BAR  -->
+                                    <div class="skillbar" data-percent="60%">
+                                        <div class="skillbar-title"><span>VS Code</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- FOURTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title"><span>Dev Console</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">80%</div>
+                                    </div>
+                                    <!-- FIFTH SKILL BAR  -->
+                                    <div class="skillbar" data-percent="80%">
+                                        <div class="skillbar-title"><span>Eclipse</span></div>
+                                        <div class="skillbar-bar"></div>
+                                        <div class="skill-bar-percent">50%</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- SECOND TIMELINE -->
-                        <div class="timeline-block">
-                            <!-- DOT -->
-                            <div class="timeline-dot"><h6>C</h6></div>
-                            <!-- TIMELINE CONTENT -->
-                            <div class="card timeline-content">
-                                <div class="card-content">
-                                    <!-- TIMELINE TITLE -->
-                                    <h6 class="timeline-title">High School</h6>
-                                    <!-- TIMELINE TITLE INFO -->
-                                    <div class="timeline-info">
-                                        <h6>
-                                            <small>Tan Phu</small>
-                                        </h6>
-                                        <h6>
-                                            <small>2018 - 2021</small>
-                                        </h6>
-                                    </div>
-                                    <!-- TIMELINE PARAGRAPH -->
-                                    <p>
-                                        I completed my high school degree from this prestigious institution.
-                                        I successful completed all the credits without any fallout and got A grade overall.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- THIRD TIMELINE -->
-                        <div class="timeline-block">
-                            <!-- DOT -->
-                            <div class="timeline-dot"><h6>D</h6></div>
-                            <!-- TIMELINE CONTENT -->
-                            <div class="card timeline-content">
-                                <div class="card-content">
-                                    <!-- TIMELINE TITLE -->
-                                    <h6 class="timeline-title">Web Developer</h6>
-                                    <!-- TIMELINE TITLE INFO -->
-                                    <div class="timeline-info">
-                                        <h6>
-                                            <small>Mentor Le Diep</small>
-                                        </h6>
-                                        <h6>
-                                            <small>2022</small>
-                                        </h6>
-                                    </div>
-                                    <!-- TIMELINE PARAGRAPH -->
-                                    <p>
-                                        I completed my computer science degree from this prestigious institution.
-                                        I successful completed all the credits without any fallout and got A grade overall.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-
-                        <!-- FOURTH TIMELINE -->
-                        <div class="timeline-block">
-                            <!-- DOT -->
-                            <div class="timeline-dot"><i class="fa fa-graduation-cap"></i></div>
-                            <!-- TIMELINE CONTENT -->
-                            <div class="card timeline-content">
-                                <div class="card-content">
-                                    <!-- TIMELINE TITLE -->
-                                    <h6 class="timeline-title">Software Engineering</h6>
-                                    <!-- TIMELINE TITLE INFO -->
-                                    <div class="timeline-info">
-                                        <h6>
-                                            <small>FPT University</small>
-                                        </h6>
-                                        <h6>
-                                            <small>2021 - 2025</small>
-                                        </h6>
-                                    </div>
-                                    <!-- TIMELINE PARAGRAPH -->
-                                    <p>
-                                        I completed this degree from this prestigious institution.
-                                        I successful completed all the credits without any fallout and got A grade overall.
-                                    </p>
-
-                                </div>
-                            </div>
-                        </div>
-                        <!-- FIFTH TIMELINE -->
-                        <div class="timeline-block">
-                            <!-- DOT -->
-                            <div class="timeline-dot"><h6>N</h6></div>
-                            <!-- TIMELINE CONTENT -->
-                            <div class="card timeline-content">
-                                <div class="card-content">
-                                    <!-- TIMELINE TITLE -->
-                                    <h6 class="timeline-title">SQL Sever</h6>
-                                    <!-- TIMELINE TITLE INFO -->
-                                    <div class="timeline-info">
-                                        <h6>
-                                            <small>Mentor Le Diep</small>
-                                        </h6>
-                                        <h6>
-                                            <small>2022</small>
-                                        </h6>
-                                    </div>
-                                    <!-- TIMELINE PARAGRAPH -->
-                                    <p>
-                                        I completed this course from this prestigious institution.
-                                        I successful completed all the credits without any fallout and got A grade overall.
-                                    </p>
-                                </div>
-                            </div>
-                        </div>
-
                     </div>
-                </div>
+                <!-- </div> -->
             </section>
-            
+
+            <!-- Projects i have worked on -->
+            <div class="projects" id="projects">
+                <div class="projects__header">
+                    <h2 class="text-accent">Projects</h2>
+                </div>
+                <div class="all-projects">
+                    <!-- All Projects will be appended here by Javascript -->
+                </div>
+            </div>
 
             <!-- Contact Me -->
             <footer>
                 <div class="container" id="contact">
                     <!--Bắt Đầu Nội Dung Giới Thiệu-->
                     <div class="noi-dung about_footer">
-                        <h2>Follow Us</h2>
+                        <h2>Follow Me</h2>
                         <ul class="social-icon">
-                            <li><a href="https://www.facebook.com/danh273/" type="_blank"><i class="fab fa-facebook-square"></i></i></a></li>
-                            <li><a href="https://github.com/hnad372" type="_blank"><i class="fab fa-github-square"></i></a></li>
-                            <li><a href="https://www.instagram.com/danhcc273/" type="_blank"><i class="fab fa-instagram-square"></i></i></a></li>
+                            <li><a href="https://www.facebook.com/danh273/" type="_blank"><i
+                                        class="fab fa-facebook-square"></i></i></a></li>
+                            <li><a href="https://github.com/hnad372" type="_blank"><i
+                                        class="fab fa-github-square"></i></a></li>
+                            <li><a href="https://www.instagram.com/danhcc273/" type="_blank"><i
+                                        class="fab fa-instagram-square"></i></i></a></li>
                             <!-- <li><a href=""><i class="fa fa-youtube"></i></a></li> -->
                         </ul>
                     </div>
-                    <!--Kết Thúc Nội Dung Giới Thiệu-->
-                    <!--Bắt Đầu Nội Dung Đường Dẫn-->
-                    <!-- <div class="noi-dung links">
-                        <h2>Đường Dẫn</h2>
-                        <ul>
-                            <li><a href="#">Trang Chủ</a></li>
-                            <li><a href="#">Về Chúng Tôi</a></li>
-                            <li><a href="#">Thông Tin Liên Lạc</a></li>
-                            <li><a href="#">Dịch Vụ</a></li>
-                            <li><a href="#">Điều Kiện Chính Sách</a></li>
-                        </ul>
-                    </div> -->
-                    <!--Kết Thúc Nội Dung Đường Dẫn-->
-                    <!--Bắt Đâu Nội Dung Liên Hệ-->
+
+                    <!--Bắt Đâu Nội Dung Liên Hệ -->
                     <div class="noi-dung contact_footer">
                         <h2>Contact</h2>
                         <ul class="info">
@@ -299,13 +277,13 @@
                             <li>
                                 <span><i class="fa fa-envelope"></i></span>
                                 <p><a href="#">chucongdanh2703@gmail.com</a></p>
-                           </li>
+                            </li>
                         </ul>
                     </div>
                     <!--Kết Thúc Nội Dung Liên Hệ-->
                 </div>
             </footer>
-            </div>
+        </div>
         </div>
     </main>
     <script>
@@ -314,10 +292,10 @@
             loop: true
         });
 
-        typewriter.typeString('<strong>Frontend Developer!</strong>')
+        typewriter.typeString('<strong>Software Engineer!</strong>')
             .pauseFor(100)
             .deleteAll()
-            .typeString('Creativity • Quality') 
+            .typeString('Creativity • Quality')
             .pauseFor(100)
             .deleteAll()
             .typeString('I build awesome web apps')
@@ -327,9 +305,6 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
 
     <script src="assets/js/main.js"></script>
-    <!-- Start of HubSpot Embed Code -->
-    <script type="text/javascript" id="hs-script-loader" async defer src="//js-eu1.hs-scripts.com/25081891.js"></script>
-    <!-- End of HubSpot Embed Code -->
 </body>
 
 </html>
