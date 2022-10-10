@@ -20,14 +20,23 @@ document.onmousemove = (e) => {
 
 let projects = [
   {
-    name: "CDM",
+    name: "Game",
     description:
-      "E-commerce website development.",
+      "An inhibitory game for players",
     technologies: ["HTML5", "CSS3", "Javascript"],
     github: null,
-    preview: "https://byvinci.io/",
+    preview: "https://hnad372.github.io/game/",
     image: "",
   },
+  // {
+  //   name: "Herconomy Savings",
+  //   description:
+  //     "Savings platform that encourages women to earn interests while they save.",
+  //   technologies: ["ReactJs", "Redux", "Sass"],
+  //   github: null,
+  //   preview: "https://hnad372.github.io/game/",
+  //   image: "",
+  // },
 ];
 
 AOS.init();
